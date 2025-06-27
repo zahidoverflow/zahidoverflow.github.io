@@ -18,16 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: ZAHID
+email: imzooel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  CS student with passion for Offensive Security and Smart Contract Audit. My passion in security research revolves around identifying vulnerabilities, securing applications, and continuously learning about the evolving threat landscape.
+
+My daily grind revolves around uncovering real-world security flaws, especially in web applications and smart contracts, and developing proof-of-concepts to demonstrate impact.
+
+💻 Core Focus Areas:
+- Web Application Security (XSS, SQLi, IDOR, SSRF, SSTI, etc.)
+- Blockchain & Smart Contract Security (Solidity audits, attack surfaces in DeFi)
+- Deep-diving into smart contract audits and real-world DeFi exploit case studies
+
+When I'm not on my working desk, you'll find me on riding bike, listening to podcasts and watching documentaries or traveling to explore new places etc.
 baseurl: "/writeups" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://zahidoverflow.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: zahidoverflow
+github_username:  zahidoverflow
 
 # Build settings
 theme: minima
