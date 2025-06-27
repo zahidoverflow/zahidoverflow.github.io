@@ -143,22 +143,54 @@
             font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
             font-size: 1.3rem;
             letter-spacing: 4px;
-            text-align: center;
-            padding: 18px 0 12px 0;
+            padding: 18px 48px;
             border-bottom: 1px solid #0f0;
             z-index: 10;
             box-shadow: 0 2px 8px #0f03;
             text-transform: uppercase;
             font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .header-text {
+            margin-right: auto;
+        }
+        .writeups-btn {
+            margin-left: 20px;
+            padding: 8px 20px;
+            background: #0f0;
+            color: #000;
+            border: none;
+            border-radius: 24px;
+            font-size: 1rem;
+            font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 0 8px #0f03, 0 0 2px #0f0;
+            transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .writeups-btn:hover {
+            background: #000;
+            color: #0f0;
+            box-shadow: 0 0 16px #0f0, 0 0 8px #0f0;
+        }
+        @media (max-width: 768px) {
+            .site-header {
+                padding: 12px 16px;
+                font-size: 1rem;
+            }
+            .writeups-btn {
+                padding: 6px 12px;
+                font-size: 0.9rem;
+            }
         }
         .content {
             margin-top: 70px;
         }
         @media (max-width: 768px) {
-            .site-header {
-                font-size: 1rem;
-                padding: 12px 0 8px 0;
-            }
             .content {
                 margin-top: 54px;
             }
@@ -166,7 +198,10 @@
     </style>
 </head>
 <body>
-    <header class="site-header">./launch.sh</header>
+    <header class="site-header">
+        <span class="header-text">./launch.sh</span>
+        <a href="/writeups" class="writeups-btn">Writeups</a>
+    </header>
     <canvas id="matrix"></canvas>
     <div class="content">
         <img src="https://pbs.twimg.com/profile_images/1661208828069949442/NLaDIzJ0_400x400.jpg" alt="zahidoverflow logo" class="logo">
