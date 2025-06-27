@@ -14,12 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ZAHIDOVERFLOW # the main title
+title: zahidoverflow # the main title
 
-tagline: Security Researcher # it will display as the subtitle
+tagline: security feature is still a feature, and features come with bugs # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  CS student with passion for Offensive Security and Smart Contract Audit. My passion in security research revolves around identifying vulnerabilities, securing applications, and continuously learning about the evolving threat landscape. My daily grind revolves around uncovering real-world security flaws, especially in web applications and smart contracts, and developing proof-of-concepts to demonstrate impact.
+  a student of knowledge, concentrating on computer science with a passion for offensive security and web3.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Mohammad Zahidul Islam
+  name: zahidoverflow
   email: imzooel@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
